@@ -16,27 +16,29 @@ Proyek ini adalah aplikasi berbasis **Golang** untuk menghitung **BMI (Body Mass
    ```sh
    cd proyekBMI
 3. Jalankan perintah berikut untuk unduh dependensi:
+   ```sh
    go mod tidy
-4. Jalankan program:
+5. Jalankan program:
+   ```sh
    go run pBMI.go / go run .
    
 ## Struktur Proyek
 
 Folder Utama : 
 
-proyekBMI, Isi nya :
+`proyekBMI`, Isi nya :
 
-1. pBMI.go
-2. go.mod
-3. go.sum
-4. .gitignore
-5. .env
-6. Folder 'config', Isi nya :
-   config.go
+1. `pBMI.go`
+2. `go.mod`
+3. `go.sum`
+4. `.gitignore`
+5. `.env`
+6. Folder `'config'`, Isi nya :
+   `config.go`
 
 ## Depedensi
-• Go Modules ( go.mod dan go.sum )
-• Database (Di folder config.go ( Disembunyikan ) )
+• `Go Modules` ( `go.mod` dan `go.sum` )
+• `Database` (Di folder `config.go` ( Disembunyikan ) )
 
 ## License / Lisensi
-Proyek ini bersifat open-source!
+Proyek ini bersifat **open-source!**
