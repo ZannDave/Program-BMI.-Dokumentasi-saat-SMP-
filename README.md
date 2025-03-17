@@ -3,7 +3,7 @@
 **Dibuat oleh:** Zann Dave, 15 tahun  
 
 ## Deskripsi  
-Proyek ini adalah aplikasi berbasis **Golang** untuk menghitung **BMI (Body Mass Index)** dan mengklasifikasikannya ke dalam kategori seperti **Underweight, Normal, Overweight, dan Obesitas yang disimpan didalam database **Postgresql** **.  
+Proyek ini adalah aplikasi berbasis **Golang** untuk menghitung **BMI (Body Mass Index)** dan mengklasifikasikannya ke dalam kategori seperti **Underweight, Normal, Overweight, dan Obesitas yang disimpan didalam database **Postgresql****.  
 
 ## Cara Menjalankan  
 ### Persyaratan  
@@ -23,13 +23,16 @@ Proyek ini adalah aplikasi berbasis **Golang** untuk menghitung **BMI (Body Mass
 ## Struktur Proyek
 
 Folder Utama : 
+
 proyekBMI, Isi nya :
+
 1. pBMI.go
 2. go.mod
 3. go.sum
 4. .gitignore
 5. .env
-6. Folder 'config', isi nya : config.go
+6. Folder 'config', Isi nya :
+   config.go
 
 ## Depedensi
 • Go Modules ( go.mod dan go.sum )
