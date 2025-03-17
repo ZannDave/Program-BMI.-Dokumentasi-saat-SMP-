@@ -21,12 +21,15 @@ Proyek ini adalah aplikasi berbasis **Golang** untuk menghitung **BMI (Body Mass
    go run pBMI.go / go run .
    
 ## Struktur Proyek
-proyekBMI/
-│── config/         # Konfigurasi database
-│── pBMI.go         # File utama untuk menghitung BMI
-│── go.mod          # Modul Go
-│── go.sum          # Daftar dependensi
-│── .env            # Konfigurasi lingkungan (jika ada)
+
+Folder Utama : 
+proyekBMI, Isi nya :
+1. pBMI.go
+2. go.mod
+3. go.sum
+4. .gitignore
+5. .env
+6. Folder 'config', isi nya : config.go
 
 ## Depedensi
 • Go Modules ( go.mod dan go.sum )
