@@ -20,7 +20,7 @@ Proyek ini adalah aplikasi berbasis **Golang** untuk menghitung **BMI (Body Mass
 4. Jalankan program:
    go run pBMI.go / go run .
    
-##Struktur Proyek
+## Struktur Proyek
 proyekBMI/
 │── config/         # Konfigurasi database
 │── pBMI.go         # File utama untuk menghitung BMI
@@ -28,9 +28,9 @@ proyekBMI/
 │── go.sum          # Daftar dependensi
 │── .env            # Konfigurasi lingkungan (jika ada)
 
-##Depedensi
+## Depedensi
 • Go Modules ( go.mod dan go.sum )
 • Database (Di folder config.go ( Disembunyikan ) )
 
-##License / Lisensi
+## License / Lisensi
 Proyek ini bersifat open-source!
